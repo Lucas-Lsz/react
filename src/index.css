@@ -70,13 +70,13 @@ button:focus-visible {
 body{
   font-family: sytem-ui, -apple-system, sans-serif;
   margin: 0 ;
-  background-color: #2c3038;
+  background-color: #2b3241;
 }
 
 header, footer{
   padding:16px;
-  background-color: #566d9e;
-  color: #071727;
+  background-color: #000000fb;
+  color: #fffdff;
   text-align: center;
 }
 
@@ -85,8 +85,8 @@ main, section{
   max-width: 800px;
   margin: 0 auto;
 }
-habit-card{
-  background-color: #141270;
+.habit-card{
+  background-color: #0418c9;
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 2px 4px rgba(73, 4, 4, 0.973);

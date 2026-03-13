@@ -6,7 +6,7 @@ function HabitCard({ titulo, meta, ativo = true, diasfeitos=0, categoria = 'Gera
         : `${diasfeitos} de ${meta} dias concluídos.`
 
   return (
-    <div className= {"Habit-card"}>
+    <div className= {"habit-card"}>
         <h3>{titulo}</h3>
         <p>{mensagemMeta}</p>
         <small>categoria: {categoria}</small>

@@ -11,7 +11,8 @@ function App() {
     { id: 2, titulo: 'leitura', meta: 7, ativo: true, diasfeitos: 3 },
     { id: 3, titulo: 'meditação', meta: 7, ativo: false, diasfeitos: 0 },
     { id: 4, titulo: 'hidratação', meta: 7, ativo: true, diasfeitos: 6 },
-  ]
+    { id: 5, titulo: 'Journaling', meta: 5, ativo: true, diasfeitos: 2 },
+    ]
 
 
   return (
@@ -24,9 +25,9 @@ function App() {
         />
         <BemVindo nomeUsuario="lucas" totalHabitos={habits.length} 
         /> 
-        <secaoHabitos titulo="turma iteam">
+        <SecaoHabitos titulo="turma iteam">
           <HabitList habits={habits} />
-        </secaoHabitos>
+        </SecaoHabitos>
         <Footer />
       </div>
     </>
