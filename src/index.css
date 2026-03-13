@@ -66,3 +66,30 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body{
+  font-family: sytem-ui, -apple-system, sans-serif;
+  margin: 0 ;
+  background-color: #2c3038;
+}
+
+header, footer{
+  padding:16px;
+  background-color: #566d9e;
+  color: #071727;
+  text-align: center;
+}
+
+main, section{
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+habit-card{
+  background-color: #141270;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(73, 4, 4, 0.973);
+  margin-bottom: 16px;
+  
+}
